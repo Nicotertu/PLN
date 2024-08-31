@@ -1,4 +1,4 @@
-# ![UBA Logo](ruta/al/logo.png)  
+# ![UBA Logo](assets/fiuba.jpg)  
 **Universidad de Buenos Aires**  
 **Especialización en Inteligencia Artificial**
 
