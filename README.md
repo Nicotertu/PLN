@@ -1,6 +1,6 @@
-# ![UBA Logo](assets/fiuba.jpg)  
-**Universidad de Buenos Aires**  
-**Especialización en Inteligencia Artificial**
+![UBA Logo](assets/fiuba.jpg)  
+#**Universidad de Buenos Aires**  
+#**Especialización en Inteligencia Artificial**
 
 ## Portafolio de Procesamiento de Lenguaje Natural
 
