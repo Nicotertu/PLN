@@ -41,11 +41,11 @@ Objetivos:
 Este desafío profundiza en la creación de representaciones vectoriales de palabras, un componente clave en muchas aplicaciones de PLN.
 
 #### 3. **Desafío 3: Modelo de Lenguaje con Tokenización por Caracteres / Palabras**  
-Este desafío explora la creación de un modelo de lenguaje basado en la tokenización por caracteres y palabras, utilizando diferentes arquitecturas de redes neuronales recurrentes (RNNs). El objetivo es entrenar un modelo que sea capaz de generar texto coherente a partir de un corpus específico.
+Este desafío explora la creación de un modelo de lenguaje basado primeramente en la tokenización por caracteres y segundo por palabras, utilizando diferentes arquitecturas de redes neuronales recurrentes (RNNs). El objetivo es entrenar un modelo que sea capaz de generar texto coherente a partir de un corpus específico.
 
 Objetivos:
 
- - **Preprocesamiento**: El texto se tokeniza a nivel de caracteres y palabras, lo que permite capturar secuencias más finas de información. El dataset se estructura en secuencias de entrenamiento y validación para preparar el modelo.
+ - **Preprocesamiento**: El texto se tokeniza a nivel de caracteres o palabras, lo que permite capturar secuencias más finas de información. El dataset se estructura en secuencias de entrenamiento y validación para preparar el modelo.
  - **Modelado**: Se implementan varias arquitecturas de redes neuronales, incluyendo SimpleRNN, LSTM, y GRU. Estas redes se entrenan para predecir el próximo carácter o palabra en una secuencia, un enfoque común en la generación de lenguaje.
  - **Generación de Secuencias**: Se utilizan técnicas como greedy search y beam search (en versiones determinísticas y estocásticas) para generar nuevas secuencias de texto a partir de secuencias de contexto. Se explora el impacto de la temperatura en la variabilidad de las secuencias generadas.
  - **Evaluación**: El desempeño del modelo se evalúa a través de la perplejidad, un indicador de cuán bien el modelo predice la siguiente secuencia de caracteres o palabra. Además, se compara la calidad de las secuencias generadas por las diferentes arquitecturas.
