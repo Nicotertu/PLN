@@ -4,7 +4,7 @@
 
 ## Portafolio de Procesamiento de Lenguaje Natural
 
-**Alumno:** Ing. Nicolas Tertusio
+**Alumno:** Ing. Nicolás Tertusio
 
 **Profesor:** Dr. Rodrigo Cardenas
 
