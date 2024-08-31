@@ -16,7 +16,7 @@ Este repositorio contiene los desafios realizados durante la materia de Procesam
 
 ### Contenido del Repositorio
 
-1. **Capítulo 1: Vectorización de texto y Modelo Naïve Bayes**  
+#### 1. **Capítulo 1: Vectorización de texto y Modelo Naïve Bayes**  
 En este desafío, se aborda la clasificación de texto utilizando el dataset 20 Newsgroups, un conjunto de datos clásico en el campo del Procesamiento de Lenguaje Natural. Este dataset consiste en un conjunto de artículos de noticias categorizados en 20 diferentes grupos de discusión.
 
 **Objetivos**:
@@ -29,16 +29,16 @@ Este desafío introduce conceptos fundamentales de PLN, como la vectorización d
 
 
 
-2. **Capítulo 2: Titulo 2**  
+#### 2. **Capítulo 2: Titulo 2**  
    Descripcion 2
 
-3. **Capítulo 3: Titulo 3**  
+#### 3. **Capítulo 3: Titulo 3**  
    Descripcion 3
 
-4. **Capítulo 4: Titulo 4**  
+#### 4. **Capítulo 4: Titulo 4**  
    Descripcion 4
 
-5. **Capítulo 5: Titulo 5**  
+#### 5. **Capítulo 5: Titulo 5**  
    Descripcion 5
 
 ---
