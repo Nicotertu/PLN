@@ -16,8 +16,18 @@ Este repositorio contiene los desafios realizados durante la materia de Procesam
 
 ### Contenido del Repositorio
 
-1. **Capítulo 1: Titulo 1**  
-   Descripcion 1
+1. **Capítulo 1: Vectorización de texto y Modelo Naïve Bayes**  
+En este desafío, se aborda la clasificación de texto utilizando el dataset 20 Newsgroups, un conjunto de datos clásico en el campo del Procesamiento de Lenguaje Natural. Este dataset consiste en un conjunto de artículos de noticias categorizados en 20 diferentes grupos de discusión.
+
+**Objetivos**:
+
+ - **Carga de Datos**: Los datos se cargan utilizando la librería sklearn, que ya proporciona el dataset preprocesado y separado en conjuntos de entrenamiento y prueba.
+ - **Vectorización**: Se implementa la vectorización de texto usando TfidfVectorizer, una técnica que convierte el texto en una matriz documento-término, donde cada elemento representa la importancia de una palabra en un documento en comparación con el corpus completo.
+ - **Clasificación**: Se entrena un modelo de clasificación Naïve Bayes, específicamente MultinomialNB y ComplementNB, para predecir la categoría de noticias a partir de sus representaciones vectorizadas.
+ - **Evaluación**: La efectividad del modelo se mide mediante la métrica de F1-score, evaluando así su precisión en la tarea de clasificación.
+Este desafío introduce conceptos fundamentales de PLN, como la vectorización de texto y el uso de modelos probabilísticos para la clasificación de documentos.
+
+
 
 2. **Capítulo 2: Titulo 2**  
    Descripcion 2
