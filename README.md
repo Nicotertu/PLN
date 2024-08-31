@@ -16,7 +16,7 @@ Este repositorio contiene los desafios realizados durante la materia de Procesam
 
 ### Contenido del Repositorio
 
-#### 1. **Capítulo 1: Vectorización de texto y Modelo Naïve Bayes**  
+#### 1. **Desafío 1: Vectorización de texto y Modelo Naïve Bayes**  
 En este desafío, se aborda la clasificación de texto utilizando el dataset 20 Newsgroups, un conjunto de datos clásico en el campo del Procesamiento de Lenguaje Natural. Este dataset consiste en un conjunto de artículos de noticias categorizados en 20 diferentes grupos de discusión.
 
 **Objetivos**:
@@ -28,7 +28,7 @@ En este desafío, se aborda la clasificación de texto utilizando el dataset 20 
 
 Este desafío introduce conceptos fundamentales de PLN, como la vectorización de texto y el uso de modelos probabilísticos para la clasificación de documentos.
 
-#### 2. **Capítulo 2: Titulo 2**  
+#### 2. **Desafío 2: Custom Embeddings con Gensim**  
 Este desafío tiene como objetivo la creación de embeddings personalizados a partir de un corpus específico utilizando la biblioteca Gensim. Los embeddings son representaciones vectoriales de palabras que capturan su significado en función del contexto en el que aparecen en los textos. Por motivos de copyright no es posible compartir el corpus utilizado, pero se basa en una aventura para el juego de rol Calabozos y Dragones.
 
 Objetivos:
@@ -40,13 +40,13 @@ Objetivos:
 
 Este desafío profundiza en la creación de representaciones vectoriales de palabras, un componente clave en muchas aplicaciones de PLN.
 
-#### 3. **Capítulo 3: Titulo 3**  
+#### 3. **Desafío 3: Titulo 3**  
    Descripcion 3
 
-#### 4. **Capítulo 4: Titulo 4**  
+#### 4. **Desafío 4: Titulo 4**  
    Descripcion 4
 
-#### 5. **Capítulo 5: Titulo 5**  
+#### 5. **Desafío 5: Titulo 5**  
    Descripcion 5
 
 ---
