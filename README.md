@@ -1,22 +1,17 @@
 ![UBA Logo](assets/fiuba.jpg)  
 # **Universidad de Buenos Aires**  
-**Especialización en Inteligencia Artificial**
 
-## Portafolio de Procesamiento de Lenguaje Natural
+**Especialización en Inteligencia Artificial**
 
 **Alumno:** Ing. Nicolás Tertusio
 
 **Profesor:** Dr. Rodrigo Cardenas
 
----
-
-### Descripción del Repositorio
+## Portafolio de Procesamiento de Lenguaje Natural
 
 Este repositorio contiene los desafios realizados durante la materia de Procesamiento de Lenguaje Natural (PLN), parte de la Especialización en Inteligencia Artificial de la Universidad de Buenos Aires. El objetivo de este portafolio es demostrar el conocimiento y las habilidades adquiridas en técnicas de PLN, aplicadas a diferentes problemas y datasets. Cada capítulo corresponde a un desafio especifico que aborda un aspecto clave del procesamiento de lenguaje natural.
 
-### Contenido del Repositorio
-
-#### 1. **Desafío 1: Vectorización de texto y Modelo Naïve Bayes**  
+### 1. **Desafío 1: Vectorización de texto y Modelo Naïve Bayes**  
 En este desafío, se aborda la clasificación de texto utilizando el dataset 20 Newsgroups, un conjunto de datos clásico en el campo del Procesamiento de Lenguaje Natural. Este dataset consiste en un conjunto de artículos de noticias categorizados en 20 diferentes grupos de discusión.
 
 **Objetivos**:
@@ -28,7 +23,7 @@ En este desafío, se aborda la clasificación de texto utilizando el dataset 20 
 
 Este desafío introduce conceptos fundamentales de PLN, como la vectorización de texto y el uso de modelos probabilísticos para la clasificación de documentos.
 
-#### 2. **Desafío 2: Custom Embeddings con Gensim**  
+### 2. **Desafío 2: Custom Embeddings con Gensim**  
 Este desafío tiene como objetivo la creación de embeddings personalizados a partir de un corpus específico utilizando la biblioteca Gensim. Los embeddings son representaciones vectoriales de palabras que capturan su significado en función del contexto en el que aparecen en los textos. Por motivos de copyright no es posible compartir el corpus utilizado, pero se basa en una aventura para el juego de rol Calabozos y Dragones.
 
 Objetivos:
@@ -40,7 +35,7 @@ Objetivos:
 
 Este desafío profundiza en la creación de representaciones vectoriales de palabras, un componente clave en muchas aplicaciones de PLN.
 
-#### 3. **Desafío 3: Modelo de Lenguaje con Tokenización por Caracteres / Palabras**  
+### 3. **Desafío 3: Modelo de Lenguaje con Tokenización por Caracteres / Palabras**  
 Este desafío explora la creación de un modelo de lenguaje basado primeramente en la tokenización por caracteres y segundo por palabras, utilizando diferentes arquitecturas de redes neuronales recurrentes (RNNs). El objetivo es entrenar un modelo que sea capaz de generar texto coherente a partir de un corpus específico.
 
 Objetivos:
@@ -52,10 +47,10 @@ Objetivos:
 
 Este desafío permite entender cómo los modelos de lenguaje pueden ser entrenados para generar texto basado en caracteres individuales o palabras completas, y cómo diferentes arquitecturas de RNNs pueden influir en la calidad de las predicciones y las secuencias generadas.
 
-#### 4. **Desafío 4: Titulo 4**  
+### 4. **Desafío 4: Titulo 4**  
    Descripcion 4
 
-#### 5. **Desafío 5: Titulo 5**  
+### 5. **Desafío 5: Titulo 5**  
    Descripcion 5
 
 ---
