@@ -36,7 +36,7 @@ Objetivos:
 Este desafío profundiza en la creación de representaciones vectoriales de palabras, un componente clave en muchas aplicaciones de PLN.
 
 ### 3. **Desafío 3: Modelo de Lenguaje con Tokenización por Caracteres / Palabras**  
-Este desafío explora la creación de un modelo de lenguaje basado primeramente en la tokenización por caracteres y segundo por palabras, utilizando diferentes arquitecturas de redes neuronales recurrentes (RNNs). El objetivo es entrenar un modelo que sea capaz de generar texto coherente a partir de un corpus específico.
+Este desafío explora la creación de un modelo de lenguaje basado primeramente en la tokenización por caracteres y segundo por palabras, utilizando diferentes arquitecturas de redes neuronales recurrentes (RNNs). El objetivo es entrenar un modelo que sea capaz de generar texto coherente a partir de un corpus específico. Se utilizó el mismo dataset que en el desafío 2, que por motivo de copyright no es posible compartirlo.
 
 Objetivos:
 
