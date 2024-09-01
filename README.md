@@ -47,10 +47,27 @@ Objetivos:
 
 Este desafío permite entender cómo los modelos de lenguaje pueden ser entrenados para generar texto basado en caracteres individuales o palabras completas, y cómo diferentes arquitecturas de RNNs pueden influir en la calidad de las predicciones y las secuencias generadas.
 
-### 4. **Desafío 4: Titulo 4**  
-   Descripcion 4
+### 4. **Desafío 4: LSTM Bot QA**  
+Este desafío utiliza el dataset ConvAI2 (Conversational Intelligence Challenge 2) originalmente armado para crear agentes capaces de mantener una conversación en cualquier tipo de tema. Se utilizan las mismas técnicas de tokenización empleadas en el desafío anterior para construir un bot que responda preguntas de usuario.
 
-### 5. **Desafío 5: Titulo 5**  
-   Descripcion 5
+Objetivos:
+
+ - **Preprocesamiento**: El texto se tokeniza, se agregan los tokens de eos (end of sentence) y sos (start of sentence) y se crean los diccionarios idx2word y word2idx para transformar tokens a palabras y viceversa.
+ - **Embeddings**: Se utilizan embeddings pre-entrenados de GloVe para transformar tokens de entrada en vectores.
+ - **Modelado**: Se diseña y entrena una estructura encoder-decoder basadas en unidades recurrentes de tipo LSTM con una capa densa con activación tipo softmax para las predicciones finales.
+ - **Inferencia**: Pruebas del modelo por medio de inferencias haciendo dando entradas de texto para recibir respuestas demuestran que para ciertas secuencias que se encuentran muy presentes en el dataset, se obtienen respuestas coherentes, pero para otras secuencias mas inusuales o completamente nuevas, las respuestas son incoherentes.
+
+Este desafío muestra una de las formas en las que comenzaron a utilizar la tokenizacion de palabras y los vectores de embeddings para resolver tareas como conversaciones. 
+
+### 5. **Desafío 5: Análisis de sentimiento y transfer learning con BERT**  
+Este último desafío aborda el tema de análisis de sentimiento utilizando el modelo BERT como base. Se aplican técnicas generales de inteligencia artificial como es transfer learning por medio de fine tuning y feature extraction para ajustar el modelo base de BERT a la tarea de determinar si los reviews de una aplicacion son positivos, negativos o neutros.
+
+Objetivos:
+
+ - **Preprocesamiento**: El dataset utilizado da los comentarios y puntaje (del 1 al 5) de los usuarios a una aplicación. Los datos desbalanceados se corrigieron cambiando la escala de 1 a 5 por una clasificación de positivo, neutro o negativo.
+ - **Feature extraction**: Congelando el modelo BERT se entrena una capa densa para clasificar los reviews. Los resultados son mejores que un modelo completamente aleatorio, y consiguen clasificar con buena precisión reviews positivos. Sin embargo tiene problemas para clasificar correctamente reviews negativos y neutros.
+ - **Fine tuning**: Utilizando un learning rate mas bajo y sin congelar el modelo BERT, se entrena el modelo para clasificar los reviews. Los resultados son considerablemente mejores: el modelo aprende a diferenciar con alta precisión las tres categorias, aunque presenta algunas dificultades para diferenciar neutro de positivo y neutro de negativo.
+
+Este desafío muestra el poder de transfer learning y cómo se puede utilizar en el entorno de Procesamiento de Lenguaje Natural. Se encara el problema de análisis de sentimiento, una tarea compleja que puede resultar compleja incluso para las personas. La mayor barrera resultó diferenciar neutro de positivo y neutro de negativo, que en el lenguaje a veces pueden estar separados por lineas muy delgadas.
 
 ---
